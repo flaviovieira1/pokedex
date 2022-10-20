@@ -27,10 +27,10 @@ body {
 
 .pokemon-image {
     position: absolute;
-    height: 15%;
     bottom: 55%;
     left: 50%;
     transform: translate(-63%, 20%);
+    size: em;
 }
 
 .pokemon-data{
@@ -45,6 +45,14 @@ body {
 .pokemon-name {
     color: #3a444d;
     text-transform: capitalize;
+    font-size: clamp(8px, 5vw, 1.2rem);
+    padding: 0;
+    margin: 0;
+}
+
+.pokemon-number{
+    
+    font-size: clamp(8px, 5vw, 1rem);
 }
 
 .form {
